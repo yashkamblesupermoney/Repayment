@@ -1,0 +1,651 @@
+/* screen - successpage */
+
+.successpage {
+  background-color: var(--white);
+  height: 100vh;
+  margin: 0px;
+  min-height: 800px;
+  min-width: 360px;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  overflow-x: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.successpage .group-33-X6Ojq1 {
+  background-color: transparent;
+  height: 552px;
+  left: calc(50% - 180px);
+  position: absolute;
+  top: 80px;
+  width: 360px;
+}
+
+.successpage .group-18-BC9ECd {
+  background-color: transparent;
+  height: 66px;
+  left: calc(50% - 164px);
+  position: absolute;
+  top: 104px;
+  width: 328px;
+}
+
+.successpage .group-18-BC9ECd {
+  background-color: transparent;
+  height: 66px;
+  left: calc(50% - 164px);
+  position: absolute;
+  top: 104px;
+  width: 328px;
+}
+
+.successpage .group-18-Label {
+  background-color: transparent;
+  height: 66px;
+  left: calc(50% - 164px);
+  position: absolute;
+  top: 210px;
+  width: 328px;
+}
+
+.successpage .supermoney-logo-vNbJnu {
+  background-color: transparent;
+  color: #ffffff;
+  height: 26px;
+  left: 80px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  position: absolute;
+  top: 16px;
+  width: 200px;
+}
+
+.successpage .text-fields-VuyMZJ {
+  background-color: transparent;
+  height: 66px;
+  left: calc(50% - 164px);
+  mix-blend-mode: normal;
+  position: relative;
+  top: 12px;
+  width: 328px;
+}
+
+.successpage .caption-JFCHDA {
+  background-color: transparent;
+  bottom: 50px;
+  height: 16px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  width: 100%;
+}
+
+.successpage .caption-x04AfR {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  letter-spacing: 0px;
+  line-height: 16px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: calc(100% - 238px);
+}
+
+.successpage .stroke-JFCHDA {
+  background-color: transparent;
+  bottom: 20px;
+  height: 2px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  width: 100%;
+}
+
+.successpage .bg-accent-hi4w82 {
+  background-color: #bfbfbf;
+  height: 100%;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+
+.successpage .subheading-hi4w82 {
+  background-color: transparent;
+  border: 0;
+  color: #8c8c8cde;
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 400;
+  height: calc(100% + 18px);
+  left: 0px;
+  letter-spacing: 0px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  padding: 0;
+  position: absolute;
+  resize: none;
+  text-align: left;
+  top: 100px;
+  width: 320px;
+}
+
+.successpage .subheading-hi4w82::placeholder {
+  color: #8c8c8c85;
+}
+
+.successpage .subheading-OLCAdP::placeholder {
+  color: #8c8c8c85;
+}
+
+.successpage .group-20-BC9ECd {
+  background-color: transparent;
+  height: 48px;
+  left: calc(50% - 164px);
+  position: absolute;
+  top: 260px;
+  width: 328px;
+}
+
+.successpage .group-20-New {
+  background-color: transparent;
+  height: 48px;
+  left: calc(50% - 164px);
+  position: absolute;
+  top: 325px;
+  width: 328px;
+}
+
+.successpage .group-20-Gender {
+  background-color: transparent;
+  height: 48px;
+  left: calc(50% - 164px);
+  position: absolute;
+  top: 390px;
+  width: 328px;
+}
+
+.successpage .group-20-Gender-InvoiceDate {
+  background-color: transparent;
+  height: 48px;
+  left: calc(50% - 164px);
+  position: absolute;
+  top: 460px;
+  width: 328px;
+}
+
+.successpage .group-20-Gender-InvoiceDateDue {
+  background-color: transparent;
+  height: 48px;
+  left: calc(50% - 164px);
+  position: absolute;
+  top: 530px;
+  width: 328px;
+}
+
+.successpage .search-a4s3wf {
+  background-color: transparent;
+  height: 32px;
+  left: calc(50% + 132px);
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 15px;
+  width: 32px;
+}
+
+.successpage .vector-BBoQ65 {
+  background-color: transparent;
+  height: 56.25%;
+  left: 24.53%;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 21.88%;
+  width: 51.56%;
+}
+
+.successpage .group-19-a4s3wf {
+  background-color: transparent;
+  height: 48px;
+  left: calc(50% - 154px);
+  position: absolute;
+  top: 0px;
+  width: 320px;
+  mix-blend-mode: normal;
+}
+
+.successpage .group-19-a4s3wf-date {
+  background-color: transparent;
+  height: 48px;
+  left: calc(50% - 159px);
+  position: absolute;
+  top: 0px;
+  width: 320px;
+  mix-blend-mode: normal;
+}
+
+.successpage .group-19-a4s3wf-dueDate {
+  background-color: transparent;
+  height: 48px;
+  left: calc(50% - 159px);
+  position: absolute;
+  top: 0px;
+  width: 320px;
+  mix-blend-mode: normal;
+}
+
+.successpage .stroke-OLCAdP {
+  background-color: transparent;
+  height: 1px;
+  left: calc(50% - 165px);
+  mix-blend-mode: normal;
+  opacity: 0.4;
+  position: absolute;
+  top: 47px;
+  width: 328px;
+}
+
+.successpage .bg-primary-Mge8zH {
+  background-color: var(--chicago);
+  height: 100%;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: relative;
+  top: 0px;
+  width: 100%;
+}
+
+.successpage .caption-OLCAdP {
+  background-color: transparent;
+  height: 16px;
+  left: calc(50% - 165px);
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 328px;
+}
+
+.successpage .caption-eq7vLY {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  letter-spacing: 0px;
+  line-height: 16px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: calc(100% - 252px);
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  /* identical to box height, or 175% */
+
+  letter-spacing: 0.0015em;
+
+  /* opacity/text--secondary */
+
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.successpage .subheading-OLCAdP {
+  background-color: transparent;
+  height: auto;
+  left: calc(50% - 165px);
+  letter-spacing: 0px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  opacity: 0.54;
+  position: absolute;
+  text-align: left;
+  top: 22px;
+  width: 320px;
+  color: #8c8c8cde;
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.successpage .single-button-BC9ECd {
+  background-color: transparent;
+  height: 64px;
+  left: calc(50% - 180px);
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 620px;
+  width: 160px;
+}
+
+.successpage .single-button-BC9ECdBT {
+  background-color: transparent;
+  height: 64px;
+  left: calc(50% - 180px);
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 200px;
+  width: 360px;
+}
+
+.successpage .light-VonDWG {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+
+.successpage .bg-light-iN94Th {
+  background-color: var(--white);
+  height: 100%;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: relative;
+  top: 0px;
+  width: 100%;
+}
+
+.successpage .iconic-right-accent-VonDWG {
+  background-color: transparent;
+  height: calc(100% - 16px);
+  left: 16px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 8px;
+  width: calc(100% - 32px);
+}
+
+.successpage .primary-KcLELU {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+
+.successpage .bg-primary-5ulh1j {
+  background-color: var(--daisy-bush);
+  border-radius: 6px;
+  box-shadow: 0px 4px 8px #1d74e929;
+  height: 100%;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: relative;
+  top: 0px;
+  width: 100%;
+}
+
+.successpage .x20-sp-title-medium-KcLELU {
+  background-color: transparent;
+  height: calc(100% - 24px);
+  left: 36px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 12px;
+  width: calc(100% - 72px);
+}
+
+.successpage .x20-sp-title-medium-OHNQuk {
+  background-color: transparent;
+  height: 44px;
+
+  mix-blend-mode: normal;
+  position: absolute;
+
+  left: calc(50% - 167px);
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 620px;
+  width: 160px;
+}
+
+.successpage .title-od0yAQ {
+  background-color: transparent;
+  height: 100%;
+  left: 28px;
+  letter-spacing: 0px;
+  line-height: 25.8px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  white-space: nowrap;
+  width: 100%;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 36px;
+  /* identical to box height, or 225% */
+  color: #ffffff;
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.0125em;
+  text-transform: capitalize;
+}
+
+.successpage .title-ueYeAQ {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  letter-spacing: 0px;
+  line-height: 25.8px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  white-space: nowrap;
+  width: 100%;
+}
+
+.successpage .page-info-BC9ECd {
+  background-color: transparent;
+  height: 72px;
+  left: calc(50% - 164px);
+  position: absolute;
+  top: 82px;
+  width: 332px;
+}
+
+.successpage .wholeConatiner {
+  background-color: transparent;
+  height: 482px;
+  left: calc(50% - 144px);
+  position: absolute;
+  top: 40px;
+  width: 229px;
+}
+
+.successpage .sideMan {
+  height: 127px;
+  right: calc(50% - 182px);
+  position: absolute;
+  top: 90px;
+  width: 104px;
+}
+
+.successpage .title-8YxpIB {
+  background-color: transparent;
+  height: auto;
+  left: calc(50% - 45px);
+  letter-spacing: 0px;
+  line-height: 23.2px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: -5px;
+  color: #ffffff;
+  width: 120px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.successpage .title-kAPPl7 {
+  background-color: transparent;
+  height: auto;
+  left: calc(50% - 120px);
+  letter-spacing: 0px;
+  line-height: 16px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 232px;
+  width: 195px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 28px;
+  /* or 175% */
+
+  letter-spacing: 0.0015em;
+
+  color: #ffffff;
+}
+
+.successpage .title-kAPPl7-Subbed {
+  background-color: transparent;
+  height: auto;
+  left: calc(50% - 120px);
+  letter-spacing: 0px;
+  line-height: 16px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 290px;
+  width: 195px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  /* or 143% */
+
+  letter-spacing: 0.0025em;
+
+  color: #ffffff;
+}
+
+.successpage .pan-8YxpIB {
+  background-color: transparent;
+  height: 144px;
+  left: 0;
+  position: absolute;
+  top: 690px;
+  width: 360px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 36px;
+  /* identical to box height, or 225% */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.0125em;
+  text-transform: capitalize;
+
+  /* standart theme/primary */
+
+  color: #4328ae;
+}
+
+.successpage .light-hamburger-X6Ojq1 {
+  background-color: transparent;
+  height: 56px;
+  left: calc(50% - 180px);
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 360px;
+  box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2),
+    0px 4px 5px rgba(0, 0, 0, 0.14), 0px 1px 10px rgba(0, 0, 0, 0.12);
+}
+
+.successpage .bg-light-uvm1xS {
+  background-color: var(--white);
+  height: 100%;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+
+.successpage .ricon-1-uvm1xS {
+  background-color: transparent;
+  height: 23px;
+  left: 319px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  position: absolute;
+  top: 16px;
+  width: 23px;
+}
+
+.successpage .top-nav-uvm1xS {
+  background-color: transparent;
+  height: 40px;
+  left: 16px;
+  position: absolute;
+  top: 8px;
+  width: 296px;
+}
+
+.successpage .arrow-left-A8odID {
+  background-color: transparent;
+  height: 40px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 40px;
+}
+
+.successpage .help-phone-A8odID {
+  background-color: transparent;
+  height: 24px;
+  left: 158px;
+  position: absolute;
+  top: 8px;
+  width: 140px;
+}
+
+.successpage .x91-9987648769-BFmTyc {
+  background-color: transparent;
+  height: auto;
+  left: 25px;
+  letter-spacing: 0px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 4px;
+  width: auto;
+}
+
+.successpage .bxbxs-phone-BFmTyc {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 17.14%;
+}
