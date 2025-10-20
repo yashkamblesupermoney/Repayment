@@ -6,6 +6,8 @@ import { ApexOptions } from 'apexcharts';
 import { useDispatch } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
 import { routeChange } from '../../store/preloaderSlice';
+import { ArrowLeft, Phone } from 'lucide-react';
+import LogoBlue from '../../assets/img/landinglogoblue.png'
 
 interface Transaction {
     invoiceNo: string;
@@ -160,11 +162,13 @@ const TransactionHistory: React.FC = () => {
 
 
             setSeries([{ data: monthlyTotals }]);
+            dispatch(routeChange('end'))
         } catch (error) {
             console.error('Error fetching transactions:', error);
             setTransactionList([]);
             setTotalPaid(0);
             setSeries([{ data: [0, 0, 0, 0, 0, 0] }]);
+            dispatch(routeChange('end'))
         }
     };
 
@@ -211,13 +215,27 @@ const TransactionHistory: React.FC = () => {
 
     return (
         <div className="bg-[#f3f0fc] font-montserrat max-w-[450px] mx-auto min-h-screen p-4">
-            <div className="flex justify-between items-center mb-4">
-                <button onClick={goBack}>←</button>
-                <div className="text-center font-bold text-[#4328ae]">Repayment History</div>
-                <button onClick={dial}>📞</button>
+            <div className="flex justify-between items-center px-4 pb-4 bg-[#f3f0fc]">
+                <div className="text-left cursor-pointer" onClick={goBack}>
+                    <span className="text-[#4328ae]"><ArrowLeft /></span>
+                </div>
+                <div className="w-1/2 text-center">
+                    <img
+                        src={LogoBlue}
+                        alt="logo"
+                        className="w-[138px] mx-auto"
+                    />
+                </div>
+                <div className="text-right cursor-pointer" onClick={dial}>
+                    {/* <span className="text-[#4328ae]">📞</span> */}
+                    <Phone className="text-[#4328ae]" fill={'#4328ae'} />
+                </div>
             </div>
 
             <div className="bg-white rounded-t-[30px] p-4">
+                <div className='text-[#4328ae] mb-2 font-bold'>
+                    Repayment Transaction History
+                </div>
                 <div className="text-sm text-[#666666] mb-2">
                     Amount Paid
                     <span className="pl-2 text-[#7e67da] text-base font-bold">

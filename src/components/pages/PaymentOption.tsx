@@ -3,6 +3,7 @@ import axios from 'axios';
 import { useDispatch, useSelector } from 'react-redux';
 import { routeChange } from '../../store/preloaderSlice';
 import mintwalkQR from '../../assets/img/mintwalk_payment_qr.png';
+import { ChevronLeft, Phone } from 'lucide-react';
 
 interface RepaymentInfo {
     clientName: string;
@@ -59,7 +60,7 @@ const PaymentOption: React.FC = () => {
         dispatch(routeChange('start'));
         try {
             const response = await axios.post(
-                'https://livegateway.supermoney.in/supermoney-service/repayment/bank/get',
+                'https://uatgateway.supermoney.in/supermoney-service/repayment/bank/get',
                 {
                     applicationId: new URLSearchParams(window.location.search).get('applicationId'),
                 }
@@ -67,8 +68,8 @@ const PaymentOption: React.FC = () => {
             setRepaymentInfo(response.data);
         } catch (error) {
             console.error('Error fetching repayment info:', error);
-            setAlertMessage('Failed to load repayment details.');
-            setAlertVisible(true);
+            // setAlertMessage('Failed to load repayment details.');
+            // setAlertVisible(true);
         } finally {
             dispatch(routeChange('end'));
         }
@@ -93,12 +94,12 @@ const PaymentOption: React.FC = () => {
                 </div>
             )}
 
-            <div className="mt-9 flex items-center">
+            <div className="pt-9 flex items-center">
                 <span
                     className="text-black opacity-90 cursor-pointer mr-2"
                     onClick={() => window.history.back()}
                 >
-                    {`<`}
+                    <ChevronLeft/>
                 </span>
                 <div
                     className="text-[#4328ae] text-[16px] font-medium cursor-pointer"
@@ -164,7 +165,7 @@ const PaymentOption: React.FC = () => {
                         onClick={() => dial(companyName === 'NETMEDS' || companyName === 'JIOMART' ? mobile1 : mobile)}
                         className="bg-[#4328ae] text-white rounded-[8px] px-4 py-2 mt-4 flex items-center"
                     >
-                        📞 <span className="ml-2 capitalize">Call</span>
+                        <Phone fill='white' className='w-4'/> <span className="ml-2 capitalize">Call</span>
                     </button>
                 </div>
             )}

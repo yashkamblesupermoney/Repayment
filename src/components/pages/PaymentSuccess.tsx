@@ -66,7 +66,7 @@ const PaymentSuccess: React.FC = () => {
             className="bg-[#f2f0fb] font-montserrat max-w-[450px] mx-auto relative"
             style={{ height: `${height}px` }}
         >
-            <img src={landingLogo} alt="Logo" className="w-[140px] mx-auto mt-[30px]" />
+            <img src={landingLogo} alt="Logo" className="w-[140px] mx-auto pt-8" />
             <img src={clouds} alt="Clouds" className="w-full absolute top-[100px]" />
 
             <div className="min-w-[360px] mx-auto relative z-10">

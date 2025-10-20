@@ -3,12 +3,13 @@ import React, { useEffect } from 'react';
 import { useDispatch } from 'react-redux';
 import supermoneyLogo from '../../assets/img/supermoneylogo.png';
 import errorImage from '../../assets/img/errorUrlImag.jpg';
+import { routeChange } from '../../store/preloaderSlice';
 
 const ErrorPage: React.FC = () => {
     const dispatch = useDispatch();
 
     useEffect(() => {
-        dispatch({ type: 'routeChange', payload: 'end' });
+        dispatch(routeChange('end'));
     }, [dispatch]);
 
     return (

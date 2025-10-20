@@ -5,6 +5,9 @@ import ReactApexChart from 'react-apexcharts';
 import { useDispatch } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
 import { routeChange } from '../../store/preloaderSlice';
+import { ArrowLeft, Phone } from 'lucide-react';
+import LogoBlue from '../../assets/img/landinglogoblue.png'
+
 
 interface Transaction {
     invoiceNo: string;
@@ -150,14 +153,31 @@ const AllTransactions: React.FC = () => {
 
     return (
         <div className="max-w-[450px] mx-auto bg-[#f3f0fc] font-montserrat p-4">
-            <div className="flex justify-between items-center mb-4">
-                <button onClick={goBack}>←</button>
-                <div className="text-center font-bold text-[#4328ae]">Transaction History</div>
-                <button onClick={dial}>📞</button>
+            <div className="flex justify-between items-center px-4 pb-4 bg-[#f3f0fc]">
+                <div className="text-left cursor-pointer" onClick={goBack}>
+                    <span className="text-[#4328ae]"><ArrowLeft /></span>
+                </div>
+                <div className="w-1/2 text-center">
+                    <img
+                        src={LogoBlue}
+                        alt="logo"
+                        className="w-[138px] mx-auto"
+                    />
+                </div>
+                <div className="text-right cursor-pointer" onClick={dial}>
+                    {/* <span className="text-[#4328ae]">📞</span> */}
+                    <Phone className="text-[#4328ae]" fill={'#4328ae'} />
+                </div>
+            </div>
+
+            <div className='bg-white rounded-t-[30px] p-4'>
+
+            <div className='text-[#4328ae] mb-2 font-bold'>
+                All Transaction History
             </div>
 
             <select
-                className="w-full bg-[#ede7f6] text-[#4328ae] text-sm rounded p-2 mb-4"
+                className="w-48 bg-[#ede7f6] text-[#4328ae] text-sm rounded p-2 mb-4"
                 value={applicationSelected?.applicationId || ''}
                 onChange={(e) => {
                     const selected = applicationList.find(app => app.applicationId === e.target.value);
@@ -227,6 +247,7 @@ const AllTransactions: React.FC = () => {
                     }}
                     height={250}
                 />
+            </div>
             </div>
         </div>
     );
